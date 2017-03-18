@@ -16,8 +16,8 @@ Description:
     be modified to work on any size.
 
 Options:
--```-b/--bytemask: <xor byte mask 8 bits> #eg 10010100```
--```-o/--dst: <file output path>```
--```-h/--help: #this help```
--```-i/--src: <file input path>```
+- ```-b/--bytemask: <xor byte mask 8 bits> #eg 10010100```
+- ```-o/--dst: <file output path>```
+- ```-h/--help: #this help```
+- ```-i/--src: <file input path>```
 
