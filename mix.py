@@ -84,6 +84,6 @@ def main():
         unmix()
         print("unmixed")
     else:
-        print("bad option" + inp.args[1] + " try: -h")
+        print("bad option: " + inp.args[1] + " try: -h")
 
 main()
