@@ -66,7 +66,7 @@ def main():
         "b":["bytemask"]
     }
     inp = getCommandLineInput(formatting = {"b":b_in, "bytemask":b_in}, default_options = OPTS, mapping=mapping)
-    if(len(inp.args) <= 1 or 'h' in inp.opts):
+    if(len(inp.args) == 0 or 'h' in inp.opts):
         print('Usage: python3 mix.py mix/unmix')
         print('\nDescription:')
         print(main.__doc__)
@@ -84,6 +84,6 @@ def main():
         unmix()
         print("unmixed")
     else:
-        print("bad option: " + inp.args[1] + " try: -h")
+        print("bad option: '" + inp.args[0] + "' try: -h")
 
 main()
